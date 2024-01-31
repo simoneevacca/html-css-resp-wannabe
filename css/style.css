@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -129,12 +130,44 @@ img {
  ************************************************/
 
 
- @media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
- } 
+}
 
- @media screen and (max-width: 480px){
-    
- } 
+@media screen and (max-width: 480px) {
+    .row {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3.3em;
+    }
+    h2{
+        font-size: 2.9rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        padding-top: 1rem;
+        background-color: black;
+        margin: 0;
+    }
+    .col {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+}
