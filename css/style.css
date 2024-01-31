@@ -157,17 +157,8 @@ img {
 
     .why-us {
         padding-top: 1rem;
-        background-color: black;
+        background-color: #222222;
         margin: 0;
     }
-    .col {
-        width: 100%;
-    }
-
-    .card {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    }
+    
 }
