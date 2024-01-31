@@ -138,17 +138,20 @@ img {
 
 @media screen and (max-width: 480px) {
     .row {
-
-        display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rm;
     }
 
     h1 {
         font-size: 3.3em;
     }
-    h2{
+
+    h2 {
         font-size: 2.9rem;
+    margin-bottom: -3rem;
+
     }
 
     .steps {
@@ -156,9 +159,28 @@ img {
     }
 
     .why-us {
-        padding-top: 1rem;
+        padding: 3rem 0;
         background-color: #222222;
         margin: 0;
     }
+
+    .lessons .col {
+        width: 100%;
+    }
+    .steps .col {
+        width: 100%;
+    }
     
+    .why-us .col {
+        width: 100%;
+    }
+
+   img{
+    margin-top: 5rem;
+   }
+
+   .why-us img {
+    margin-bottom: 4rem;
+   }
+  
 }
